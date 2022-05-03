@@ -48,8 +48,13 @@ def track():
     clock.config(text=current_time)
 
 
+
+
 #logo
 logo = PhotoImage(file="logo image.png")
+
+root.iconphoto(False, logo)
+
 Label(root, image=logo).place(x=35, y=70)
 
 Heading = Label(root, text="TRACK NUMBER", font=("arial", 15, "bold"))
